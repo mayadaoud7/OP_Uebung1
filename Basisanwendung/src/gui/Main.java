@@ -4,14 +4,10 @@ import business.CsvDateiLeser;
 
 public class Main {
 
-	public static void main(String[] args) {
-
-		// System.out.println("Guten Tag");
-
-		CsvDateiLeser cdl = new CsvDateiLeser();
-		String ueberschrift = cdl.getUeberschrift();
-		System.out.println(ueberschrift);
-
-	}
-
+    public static void main(String[] args) {
+        CsvDateiLeser cdl = new CsvDateiLeser();
+        String ueberschrift = cdl.getUeberschrift();
+        System.out.println(ueberschrift);
+        System.out.println("Entwickler B - Version");
+    }
 }
